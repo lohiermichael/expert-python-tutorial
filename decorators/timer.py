@@ -21,7 +21,6 @@ def timer(func):
 
         if 'print_args' in kwargs and kwargs['print_args']:
             print(f'For args: {args}')
-        print('\n')
 
     return wrapper
 
